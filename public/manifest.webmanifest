@@ -1,0 +1,36 @@
+{
+  "name": "Pane Studio — Éditeur de fonds d'écran Windows",
+  "short_name": "Pane Studio",
+  "description": "Studio professionnel de création de fonds d'écran pour PC : calques, bibliothèque de logos Windows, import et export haute définition.",
+  "lang": "fr",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "id": "./",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#0a0c12",
+  "theme_color": "#0a0c12",
+  "categories": ["graphics", "photo", "productivity", "design"],
+  "icons": [
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
